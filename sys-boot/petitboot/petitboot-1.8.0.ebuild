@@ -18,5 +18,6 @@ DEPEND="sys-fs/lvm2:*"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
-   eautoreconf
+	eapply_user
+	eautoreconf
 }
