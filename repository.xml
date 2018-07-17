@@ -1,0 +1,11 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>ashymad</name>
+    <description>Ashymad's overlay</description>
+    <owner>
+      <email>ashymad@posteo.net</email>
+      <name>Ashymad</name>
+    </owner>
+    <source type="git">https://github.com/Ashymad/gentoo-overlay.git</source>
+  </repo>
+</repositories>
