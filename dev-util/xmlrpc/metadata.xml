@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>ashymad@posteo.net</email>
+		<name>Ashymad</name>
+	</maintainer>
+	<longdescription>
+		xmlrpc is a command-line interface to the XML-RPC protocol. The spec for
+		XML-RPC is here: http://www.xmlrpc.com/spec. It's a remote procedure call
+		protocol using XML for both the request and the response. This program
+		lets you give the request parameters as command-line arguments, formats
+		them up as XML, sends them to the server, and shows you the response.
+	</longdescription>
+</pkgmetadata>
