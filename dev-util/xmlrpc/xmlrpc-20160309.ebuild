@@ -15,7 +15,7 @@ LICENSE="BSD"
 
 SLOT="0"
 
-KEYWORDS="~arm"
+KEYWORDS="~arm ~arm64"
 
 IUSE="ssl"
 
