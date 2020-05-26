@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -24,7 +24,7 @@ RDEPEND="${DEPEND}
 S=${WORKDIR}/${P}/trunk
 
 src_prepare() {
-   eapply_user
-   epatch "${FILESDIR}"/00include_sysmacros.patch
-   eautoreconf
+	eapply_user
+	epatch "${FILESDIR}"/00include_sysmacros.patch
+	eautoreconf
 }
